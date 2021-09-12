@@ -1,7 +1,7 @@
 import Pessoa from './Pessoa';
 import Genero from "./Genero";
 
-class PessoaFisica extends Pessoa {
+export default class PessoaFisica extends Pessoa {
 	private _cpf: String;
 	private _primeiroNome: String;
 	private _sobrenome: String;

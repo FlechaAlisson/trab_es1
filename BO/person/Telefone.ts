@@ -1,4 +1,4 @@
-class Telefone{
+export default class Telefone{
 	private _id: number;
 	private _numero: String;
 	private _DDI: String;

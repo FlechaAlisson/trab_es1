@@ -1,7 +1,7 @@
 import AtividadeComercial from "./AtividadeComercial";
 import Pessoa from "./Pessoa";
 
-class PessoaJuridica extends Pessoa{
+export default class PessoaJuridica extends Pessoa{
 	private _pessoa: Pessoa;
 	private _cnpj: String;
 	private _atividadeComercial: AtividadeComercial;
