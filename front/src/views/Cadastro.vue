@@ -190,6 +190,7 @@ export default {
       nome: "",
       sobrenome: "",
       nomeSocial: "",
+      end_cep: "",
       end_pais: "",
       end_estado: "",
       end_cidade: "",
@@ -201,6 +202,7 @@ export default {
       ddd: "",
       fone: "",
       cpf: "",
+
     };
   },
   methods: {

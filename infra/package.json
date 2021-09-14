@@ -1,0 +1,20 @@
+{
+  "name": "infra",
+  "version": "1.0.0",
+  "description": "",
+  "main": "source/connection.ts",
+  "scripts": {
+    "dev": "node source/connection.ts",
+    "build": "rm -rf build/ && prettier --write source/ && tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^16.9.1",
+    "@types/pg": "^8.6.1",
+    "pg": "^8.7.1",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  }
+}
